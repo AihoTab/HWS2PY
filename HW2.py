@@ -1,8 +1,6 @@
-# 2 Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
-n = int(input())
-f = 1
-for i in range(n):
-    i = i + 1
-    f = i * f
-
-    print(f, end=' ')
+# 5 Реализуйте алгоритм перемешивания списка.
+import random
+lst = [random.randint(0, 99) for i in range(random.randint(5, 15))]
+print(lst)
+random.shuffle(lst)
+print(lst)
